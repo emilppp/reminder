@@ -5,9 +5,9 @@
 
 
 (defn get-key
-  "Get the key located in ./key/key.txt"
+  "Get the key located in ./apikey/key.txt"
   []
-  (clojure.string/trim (slurp "key/key.txt")))
+  (clojure.string/trim (slurp "apikey/key.txt")))
 
 (defn api-root
   "Get the api-root url"
