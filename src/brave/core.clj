@@ -53,7 +53,6 @@
 (defn print-result
   [in]
   (let [data (first in)]
-    (println (count in))
   (if (empty? in)
     (println "Done.")
     (do
@@ -62,5 +61,3 @@
 
 (defn -main []
   (print-result (get-relevant-data 5)))
-
-(-main)
